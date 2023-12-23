@@ -1,0 +1,16 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+	<ribbon>
+		<tabs>
+			<tab idMso="TabPageLayoutWord">
+				<group id="figuresAndTables" label="Figures and Tables" insertAfterMso="GroupArrange">
+					<button id="Figure" label="New Figure" size="normal" imageMso="DiagramShapeInsertClassic" onAction="FiguresAndTables.ButtonPressed" />
+					<button id="ChangePicture" label="Replace Picture" size="normal" imageMso="PictureChange" onAction="FiguresAndTables.ButtonPressed" />
+					<button id="UpdateFields" label="Update All" size="normal" imageMso="AutoFormat" onAction="DocumentSetup.UpdateButtonPressed" />
+					<button id="Table" label="New Table" size="normal" imageMso="AdpDiagramAddTable" onAction="FiguresAndTables.ButtonPressed" />
+					<button id="Reposition" label="Reposition" size="normal" imageMso="PicturePositionGallery" onAction="FiguresAndTables.ButtonPressed" />
+					<button id="RelayoutDocument" label="Relayout Document" size="normal" imageMso="PositionAnchoringGallery" onAction="FiguresAndTables.ButtonPressed" />
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
